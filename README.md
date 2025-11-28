@@ -29,3 +29,34 @@ A web-based AI translator built with Flask and Hugging Face Transformers. It aut
    
 5. Open your browser and go to:
     http://localhost:5006/
+
+## Usage
+# Web Interface
+* Type or paste text into the input field
+* The app auto-detects the language
+* The translated text appears instantly in the output field
+
+## API Endpoint
+ * POST /translate with JSON payload:
+```bash
+{
+  "text": "Bonjour",
+  "src_lang": "fr",
+  "tgt_lang": "en"
+}
+
+** Example response:**
+```bash 
+{
+  "src_lang": "fr",
+  "tgt_lang": "en",
+  "translation": "Hello"
+}
+
+## Future Improvements
+ * Support additional target languages
+ * Add text filtering or profanity detection
+ * Integrate chat completion or other NLP features
+ * Enhance frontend UI/UX for mobile devices
+
+If src_lang is not provided, the language is automatically detected.
