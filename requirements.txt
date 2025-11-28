@@ -1,0 +1,9 @@
+uvicorn
+flask
+transformers
+torch
+sentencepiece
+sacremoses
+flask-cors
+langdetect
+requests
