@@ -21,7 +21,7 @@ A web-based AI translator built with Flask and Hugging Face Transformers. It aut
 
 2. Build the Docker image:
     ```bash
-     docker build -t translator_ui .
+    docker build -t translator_ui .
 
 3. Run the Docker container:
     ```bash
