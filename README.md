@@ -20,9 +20,11 @@ A web-based AI translator built with Flask and Hugging Face Transformers. It aut
    cd <repository_folder>
 
 2. Build the Docker image:
-    docker build -t translator_ui .
+    ```bash
+     docker build -t translator_ui .
 
 3. Run the Docker container:
+    ```bash
     docker run -p 5006:5006 translator_ui
    
 5. Open your browser and go to:
